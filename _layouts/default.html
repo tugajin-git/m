@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="container">
+            <a href="/" class="logo">&emsp;ADRoboRacing</a>
+            <nav>
+                <ul>
+                    <li><a href="{{ '/script/ABOUT/about.md' | relative_url }}">ABOUT</a></li>
+                    <li><a href="{{ '/script/DOCUMENT/document.md' | relative_url }}">DOCUMENT</a></li>
+                    <li><a href="{{ '/script/CONTACT/contact.md' | relative_url }}">CONTACT&emsp;</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Visual Section -->
+    <section class="main-visual">
+        <img src="{{ '/data/home_image.png' | relative_url }}" alt="Main Visual">
+        <div class="overlay-text">
+            <h1>わからないことだらけ</h1>
+        </div>
+    </section>
+
+    <main>
+        <!-- {{ content }} -->
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ADRoboRacing</p>
+        </div>
+    </footer>
+
+</body>
+</html>
