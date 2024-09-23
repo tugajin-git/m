@@ -1,5 +1,7 @@
 ---
-title: "About Us"
+title: "ABOUT"
+layout: default
+permalink: /about/
 ---
 
 # チーム紹介

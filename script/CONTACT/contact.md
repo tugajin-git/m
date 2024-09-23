@@ -1,5 +1,7 @@
 ---
-title: "Contact Us"
+title: "CONTACT"
+layout: default
+permalink: /contact/
 ---
 
 # 連絡先

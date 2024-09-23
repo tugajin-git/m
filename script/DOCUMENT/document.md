@@ -1,5 +1,7 @@
 ---
-title: "Documents"
+title: "DOCUMENT"
+layout: default
+permalink: /document/
 ---
 
 # ドキュメントページ
